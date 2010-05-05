@@ -1,0 +1,57 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+ul, ol {list-style:none;}
+A {text-decoration:none;}
+
+.clear {clear:both;}
+body {background:#EFEFEF none no-repeat fixed 0 0;font-family:'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;}
+
+#header { width:800px; margin:0 auto; height:30px}
+#header UL {float:right; margin:5px 0 0;}
+#header LI {float:left; margin:0 10px;}
+H1 {font-size:1.4em; font-weight:bold; margin:5px 0 0; display:inline;}
+
+/* CONTENT */
+#content { width:800px; margin:20px auto;}
+#content .left {float:left; width:150px; height:1000px;}
+#content .right {float:left; width:650px;}
+
+#tweetbox {width:600px; margin:0 auto;}
+
+/* LEFT */
+.info IMG{float:left;margin:0 5px 0 0;}
+.info .username{font-size:0.85em; font-weight:bold}
+.info .follows{font-size:0.6em;margin:30px 0;}
+.info .follows LI {float:left;margin:0 2px;}
+.info .follows LI SPAN{display:block;}
+.info .follows LI SPAN.num{}
+
+.filters {margin:30px 0 0;}
+.filters LI{font-size:0.9em;margin:5px 10px;text-align:right;}
+.filters SPAN{font-size:0.9em; font-weight:bold;}
+
+
+/* */
+#tweets {-webkit-border-radius: 10px; -moz-border-radius: 10px;border-radius: 10px;background:#FFFFFF none repeat scroll 0 0;margin:20px auto;width:580px;padding:10px; }
+#tweets OL { }
+#tweets LI { }
+
+.status {border-bottom:1px solid #EFEFEF;margin:10px 5px;min-height:70px;position:relative;}
+.status .thumb{display:block;height:50px;left:0;margin:0 10px 0 0;overflow:hidden;position:absolute;width:50px;z-index:10;}
+.status STRONG {margin:0 5px 0 0;}
+.status .status-body{display:block;margin-left:56px;min-height:48px;}
+.status .status-content{}
+.status .entry-meta{color:#999999;display:block;font-size:11px;}
+.status .actions-hover{bottom:2px;color:#999999;float:right;font-size:11px;overflow:visible;padding-right:10px;position:absolute;right:0;}
+.status .actions-hover LI {float:left;margin:0 5px;}
+
+.embed {margin:10px 0 30px;text-align:center;}
+
+#login {position:absolute; top:5px; right:5px;}
